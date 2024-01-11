@@ -1,0 +1,2131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Add to Cart</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/AddtoCart.css">
+	</head>
+	<body>
+		<!-- Navbar -->
+		<section class="navbar d-flex">
+			<div class="container">
+				<div class="nav-contents d-flex">
+					<div class="logo">
+						<a href="Home.html">
+							<img src="./img/logo.jpeg" alt="logo">
+						</a>
+					</div>
+					<ul class="nav-items d-flex">
+						<li><a href="Home.html">Home</a></li>
+						<li><a href="Products.html">Products</a></li>
+						<li><a href="AboutUs.html">About Us</a></li>
+						<li><a href="ContactUs.html">Contact Us</a></li>
+					</ul>
+					<ul class="nav-icons d-flex">
+						<li>
+							<a href="#" title="person"
+								><i class="bi bi-person-fill"></i
+							></a>
+						</li>
+						<li>
+							<a href="Basket.html" title="cart"
+								><i class="bi bi-cart-fill"></i
+							></a>
+						</li>
+						<li>
+							<a href="#" title="search"
+								><i class="bi bi-search"></i
+							></a>
+						</li>
+					</ul>
+					<div class="navbar-toggle" onclick="toggleBar">
+						<div class="bar"></div>
+						<div class="bar"></div>
+						<div class="bar"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Slider -->
+
+		<div class="slider">
+			<div class="swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="./img/camping1.jpg" alt="">
+						<h1
+							class="title"
+							data-aos="fade-up"
+							data-aos-duration="2000">
+							Add to Basket
+						</h1>
+					</div>
+					<div class="swiper-slide">
+						<img src="./img/camping2.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="./img/camping3.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="./img/camping4.jpg" alt="">
+					</div>
+				</div>
+				<div class="button">
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+			</div>
+		</div>
+		<div class="pagination my-2">
+			<ul class="d-flex container">
+				<li><a href="#" class="prev-page">&lt;</a></li>
+				<li><a href="#" class="page-link active">Tents</a></li>
+				<li><a href="#" class="page-link">Furnitures</a></li>
+				<li><a href="#" class="page-link">Cookwares</a></li>
+				<li><a href="#" class="page-link">Equipments</a></li>
+				<li><a href="#" class="page-link">Sets</a></li>
+				<li><a href="#" class="next-page">&gt;</a></li>
+			</ul>
+		</div>
+
+		<!-- Add to Cart -->
+		<div class="cart container">
+			<div id="1">
+				<div
+					class="card my-3"
+					data-aos="fade-right"
+					data-aos-duration="1500">
+					<div class="img-card d-flex">
+						<img src="./img/p1.png" alt="p1">
+					</div>
+					<div class="img-text">
+						<h1>
+							Salewa Zelt Litetrek Pro 2-2 Personen Zelt -
+							DarkBrown
+						</h1>
+						<div class="rating-length">
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<p class="rateno">(11)</p>
+						</div>
+						<small>Salewa</small>
+						<div class="price d-flex">
+							<p>$247.46</p>
+							<del>$329.95</del>
+							<button class="sale">Sale</button>
+						</div>
+						<p>Shipping calculated at check point</p>
+						<div class="item d-flex">
+							<p>Item :</p>
+							<button class="tent">4 person tent</button>
+						</div>
+						<div class="quantity d-flex">
+							<p>Quantity :</p>
+							<button id="decrement1">-</button>
+							<span id="count1">0</span>
+							<button id="increment1">+</button>
+						</div>
+
+						<div class="button d-flex">
+							<a
+								href="#"
+								class="addtocart"
+								data-product-name="Salewa Zelt Litetrek Pro"
+								data-product-price="247.46">
+								<p>Add to Cart</p>
+								<i class="bi bi-cart-fill"></i>
+							</a>
+							<a href="#" class="payment">
+								<p>Buy with PayPal</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/p2.png" alt="p2">
+				</div>
+				<div class="img-text">
+					<h1>Vango Voyager 400 Tunnel Tent-River, 2 Persons</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star"></i>
+						<i class="bi bi-star"></i>
+						<p class="rateno">(7)</p>
+					</div>
+					<small>Vango</small>
+					<div class="price d-flex">
+						<p>$250.35</p>
+						<del>$270.56</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">2 person tent</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement2">-</button>
+						<span id="count2">0</span>
+						<button id="increment2">+</button>
+					</div>
+
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Vango Voyager 400 Tunnel Tent-River"
+							data-product-price="250.35">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/p3.png" alt="p3">
+				</div>
+				<div class="img-text">
+					<h1>Coleman Coastline 3 Plus 3 Man Tent - BlueCyan</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-half"></i>
+						<p class="rateno">(9)</p>
+					</div>
+					<small>Coleman</small>
+					<div class="price d-flex">
+						<p>$300.24</p>
+						<del>$350.56</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">3 person tent</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement3">-</button>
+						<span id="count3">0</span>
+						<button id="increment3">+</button>
+					</div>
+
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Coleman Coastline 3 Plus 3 Man Tent"
+							data-product-price="300.24">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/p4.png" alt="p4">
+				</div>
+				<div class="img-text">
+					<h1>Vango Odyssey Inflatable Family Tunnel Tent</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(9)</p>
+					</div>
+					<small>Vango Odyssey</small>
+					<div class="price d-flex">
+						<p>$476.69</p>
+						<del>$576.69</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">Family Tunnel Tent</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement4">-</button>
+						<span id="count4">0</span>
+						<button id="increment4">+</button>
+					</div>
+
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Vango Odyssey Inflatable Family Tunnel Tent"
+							data-product-price="476.69">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/p5.png" alt="p5">
+				</div>
+				<div class="img-text">
+					<h1>Vango Lulworth Tent For 4 Person - Soft Brown</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-half"></i>
+						<i class="bi bi-star"></i>
+						<p class="rateno">(9)</p>
+					</div>
+					<small>Vango Lulworth</small>
+					<div class="price d-flex">
+						<p>$330.65</p>
+						<button class="sale ml-10">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">4 Person Tent</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement5">-</button>
+						<span id="count5">0</span>
+						<button id="increment5">+</button>
+					</div>
+
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Vango Lulworth Tent For 4 Person - Soft Brown"
+							data-product-price="330.65">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/p6.png" alt="p6">
+				</div>
+				<div class="img-text">
+					<h1>Grand Canyon CARDOVA 1 Tunnel Tent - Olive</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>Grand Canyon</small>
+					<div class="price d-flex">
+						<p>$270.45</p>
+						<del>$249.53</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">1 Tunnel Tent</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement6">-</button>
+						<span id="count6">0</span>
+						<button id="increment6">+</button>
+					</div>
+
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Grand Canyon CARDOVA 1 Tunnel Tent - Olive"
+							data-product-price="270.45">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/p7.png" alt="p7">
+				</div>
+				<div class="img-text">
+					<h1>Vango Purbeck 600XL Tent, Vivid Grey, Size 500</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>Vango Purbeck</small>
+					<div class="price d-flex">
+						<p>$460.23</p>
+						<del>$430.23</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">600XL Tent</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement7">-</button>
+						<span id="count7">0</span>
+						<button id="increment7">+</button>
+					</div>
+
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Vango Purbeck 600XL Tent, Vivid Grey, Size 500"
+							data-product-price="460.23">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/p8.png" alt="p8">
+				</div>
+				<div class="img-text">
+					<h1>Milestone Camping 18809 2 Man Festival Pop-Up Tent</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-half"></i>
+						<i class="bi bi-star"></i>
+						<p class="rateno">(9)</p>
+					</div>
+					<small>Milestone</small>
+					<div class="price d-flex">
+						<p>$200.33</p>
+						<del>$190.00</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">2 Man Pop-Up Tent</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement8">-</button>
+						<span id="count8">0</span>
+						<button id="increment8">+</button>
+					</div>
+
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Milestone Camping 18809 2 Man Festival Pop-Up Tent"
+							data-product-price="200.33">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/f1.jpg" alt="f1">
+				</div>
+				<div class="img-text">
+					<h1>Outwell Grand Canyon Camping Chair</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>Grand Canyon</small>
+					<div class="price d-flex">
+						<p>$220.34</p>
+						<del>$230.45</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">1 person chair</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement9">-</button>
+						<span id="count9">0</span>
+						<button id="increment9">+</button>
+					</div>
+
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Outwell Grand Canyon Camping Chair"
+							data-product-price="220.34">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/f2.jpg" alt="f2">
+				</div>
+				<div class="img-text">
+					<h1>Outwell Campo Folding Camping Chair</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star"></i>
+						<p class="rateno">(9)</p>
+					</div>
+					<small>Campo</small>
+					<div class="price d-flex">
+						<p>$180.64</p>
+						<del>$179.95</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">1 person chair</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement10">-</button>
+						<span id="count10">0</span>
+						<button id="increment10">+</button>
+					</div>
+
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Outwell Campo Folding Camping Chair"
+							data-product-price="180.64">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/f3.jpg" alt="f3">
+				</div>
+				<div class="img-text">
+					<h1>Outdoor Revolution Low Folding Table with Alu Top</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-half"></i>
+						<p class="rateno">(9)</p>
+					</div>
+					<small>LF table</small>
+					<div class="price d-flex">
+						<p>$120.32</p>
+						<del>$123.20</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">4 person table</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement11">-</button>
+						<span id="count11">0</span>
+						<button id="increment11">+</button>
+					</div>
+
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Outdoor Revolution Low Folding Table with Alu Top"
+							data-product-price="120.32">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/f4.jpeg" alt="f4">
+				</div>
+				<div class="img-text">
+					<h1>Cupboards and Wardrobes, Camping Storage</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>C&W Storage</small>
+					<div class="price d-flex">
+						<p>$250.46</p>
+						<del>$290.95</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">Any Storage</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement12">-</button>
+						<span id="count12">0</span>
+						<button id="increment12">+</button>
+					</div>
+
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Cupboards and Wardrobes, Camping Storage"
+							data-product-price="250.46">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/e2.jpg" alt="e2">
+				</div>
+				<div class="img-text">
+					<h1>Coleman Portable Camping Chair with 4-Can Cooler</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>Coleman</small>
+					<div class="price d-flex">
+						<p>$200.40</p>
+						<del>$230.35</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">1 person chair</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement13">-</button>
+						<span id="count13">0</span>
+						<button id="increment13">+</button>
+					</div>
+
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Coleman Portable Camping Chair with 4-Can Cooler"
+							data-product-price="200.40">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/f5.jpeg" alt="f5">
+				</div>
+				<div class="img-text">
+					<h1>OutwellPosadas XL Foldaway Single Bed - Black</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>OutwellPosadas</small>
+					<div class="price d-flex">
+						<p>$80.59</p>
+						<del>$56.43</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">1 person bed</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement14">-</button>
+						<span id="count14">0</span>
+						<button id="increment14">+</button>
+					</div>
+
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="OutwellPosadas XL Foldaway Single
+							Bed - Black"
+							data-product-price="80.59">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/f6.jpg" alt="f6">
+				</div>
+				<div class="img-text">
+					<h1>Outdoor Revolution Double Camping Bed - Black</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>Outdoor</small>
+					<div class="price d-flex">
+						<p>$120.32</p>
+						<del>$90.45</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">2 person bed</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement15">-</button>
+						<span id="count15">0</span>
+						<button id="increment15">+</button>
+					</div>
+
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Outdoor Revolution Double Camping
+							Bed - Black"
+							data-product-price="120.32">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/f7.jpg" alt="f7">
+				</div>
+				<div class="img-text">
+					<h1>
+						Outwell Brim Coffee Table with 4 - Legs, Black Edition
+					</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>Outwell</small>
+					<div class="price d-flex">
+						<p>$245.30</p>
+						<del>$235.95</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">2 person table</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement16">-</button>
+						<span id="count16">0</span>
+						<button id="increment16">+</button>
+					</div>
+
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Outwell Brim Coffee Table with 4 - Legs, Black Edition"
+							data-product-price="245.30">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/e3.jpg" alt="e3">
+				</div>
+				<div class="img-text">
+					<h1>Campingaz Camp Bistro, 1 Burner, Camping Stove</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>Stove</small>
+					<div class="price d-flex">
+						<p>$180.45</p>
+						<del>$154.24</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">1 Burner</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement17">-</button>
+						<span id="count17">0</span>
+						<button id="increment17">+</button>
+					</div>
+
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Campingaz Camp Bistro, 1 Burner, Camping Stove"
+							data-product-price="180.45">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/e6.jpg" alt="e6">
+				</div>
+				<div class="img-text">
+					<h1>Personalised Logo Enamel Camp Mug - 12oz</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star"></i>
+						<p class="rateno">(9)</p>
+					</div>
+					<small>Enamel</small>
+					<div class="price d-flex">
+						<p>$20.59</p>
+						<del>$25.43</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">11oz Mug</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement18">-</button>
+						<span id="count18">0</span>
+						<button id="increment18">+</button>
+					</div>
+
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Personalised Logo Enamel Camp Mug -
+							12oz"
+							data-product-price="20.59">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/c1.jpeg" alt="c1">
+				</div>
+				<div class="img-text">
+					<h1>Outwell Collaps Cooking Pot With Lid 4.5L - Black</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-half"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>Outwell Pot</small>
+					<div class="price d-flex">
+						<p>$60.99</p>
+						<del>$65.76</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">1 Pot</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement19">-</button>
+						<span id="count19">0</span>
+						<button id="increment19">+</button>
+					</div>
+
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Collaps Pot L"
+							data-product-price="60.99">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/c2.jpeg" alt="c2">
+				</div>
+				<div class="img-text">
+					<h1>Outwell Tea Break Steam Kettle L 1.8L - Silver</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>Kettle</small>
+					<div class="price d-flex">
+						<p>$11.99</p>
+						<del>$12.25</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">1 Kettle</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement20">-</button>
+						<span id="count20">0</span>
+						<button id="increment20">+</button>
+					</div>
+
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Tea Break Kettle L 1.8L - Silver"
+							data-product-price="11.99">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/c3.jpeg" alt="c3">
+				</div>
+				<div class="img-text">
+					<h1>MSR Alpine Stainless Steel Stowaway Pot - 1.6L</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>MSR Pot</small>
+					<div class="price d-flex">
+						<p>$43.32</p>
+						<del>$41.15</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">Stowaway Pot</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement21">-</button>
+						<span id="count21">0</span>
+						<button id="increment21">+</button>
+					</div>
+
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="MSR Alpine Stainless Steel Stowaway Pot - 1.6L"
+							data-product-price="43.32">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/c4.png" alt="c4">
+				</div>
+				<div class="img-text">
+					<h1>Nonstick Foldable Handle Frypan for Camping</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>Camping Frypan</small>
+					<div class="price d-flex">
+						<p>$60.28</p>
+						<del>$54.25</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">Nonstick Frypan</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement22">-</button>
+						<span id="count22">0</span>
+						<button id="increment22">+</button>
+					</div>
+
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Nonstick Foldable Handle Frypan for
+							Camping"
+							data-product-price="60.28">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/c5.jpg" alt="c5">
+				</div>
+				<div class="img-text">
+					<h1>Salamander Dish Washing Hammock with Pockets</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star"></i>
+						<i class="bi bi-star"></i>
+						<p class="rateno">(9)</p>
+					</div>
+					<small>Dish Washing Hammock</small>
+					<div class="price d-flex">
+						<p>$190.67</p>
+						<del>$133.47</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">Salamander</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement23">-</button>
+						<span id="count23">0</span>
+						<button id="increment23">+</button>
+					</div>
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Salamander Dish Washing Hammock with Pockets"
+							data-product-price="190.67">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/c6.jpg" alt="c6">
+				</div>
+				<div class="img-text">
+					<h1>Lifeventure Ellipse Camping Plate - 110 grams</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>Lifeventure</small>
+					<div class="price d-flex">
+						<p>$32.56</p>
+						<del>$29.30</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">Camping Plate</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement24">-</button>
+						<span id="count24">0</span>
+						<button id="increment24">+</button>
+					</div>
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Lifeventure Ellipse Camping Plate - 110 grams"
+							data-product-price="32.56">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/e1.jpg" alt="e1">
+				</div>
+				<div class="img-text">
+					<h1>Yellowstone Cotton Outdoor Hiking Hat - Khaki</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star"></i>
+						<p class="rateno">(9)</p>
+					</div>
+					<small>Yellowstone</small>
+					<div class="price d-flex">
+						<p>$64.00</p>
+						<button class="sale ml-10">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">Cotton Hat</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement25">-</button>
+						<span id="count25">0</span>
+						<button id="increment25">+</button>
+					</div>
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Yellowstone Cotton Outdoor Hiking Hat - Khaki"
+							data-product-price="64.00">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/e4.jpg" alt="e4">
+				</div>
+				<div class="img-text">
+					<h1>Rechargeable Camping Fan - LED Lantern Timing</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star"></i>
+						<p class="rateno">(9)</p>
+					</div>
+					<small>RC Fan</small>
+					<div class="price d-flex">
+						<p>$98.64</p>
+						<del>$66.95</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">Fan</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement26">-</button>
+						<span id="count26">0</span>
+						<button id="increment26">+</button>
+					</div>
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Rechargeable Camping Fan - LED Lantern Timing"
+							data-product-price="98.64">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/e7.jpg" alt="e7">
+				</div>
+				<div class="img-text">
+					<h1>Retro Portable Camping Lamp with Waterproof</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-half"></i>
+						<p class="rateno">(9)</p>
+					</div>
+					<small>RP Lamp</small>
+					<div class="price d-flex">
+						<p>$120.32</p>
+						<del>$123.20</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">Lamp</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement27">-</button>
+						<span id="count27">0</span>
+						<button id="increment27">+</button>
+					</div>
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Retro Portable Camping Lamp with
+							Waterproof"
+							data-product-price="120.32">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/e8.jpg" alt="e8">
+				</div>
+				<div class="img-text">
+					<h1>18L Camping Backpack with Waterproof - Green</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>18L Backpack</small>
+					<div class="price d-flex">
+						<p>$250.46</p>
+						<del>$242.95</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">Waterproof Backpack</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement28">-</button>
+						<span id="count28">0</span>
+						<button id="increment28">+</button>
+					</div>
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="18L Camping Backpack with Waterproof - Green"
+							data-product-price="250.46">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/e5.jpg" alt="e5">
+				</div>
+				<div class="img-text">
+					<h1>Rechargeable LED Waterproof Camping Torch</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star"></i>
+						<p class="rateno">(9)</p>
+					</div>
+					<small>RW Torch</small>
+					<div class="price d-flex">
+						<p>$230.40</p>
+						<button class="sale ml-10">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">LED Torch</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement29">-</button>
+						<span id="count29">0</span>
+						<button id="increment29">+</button>
+					</div>
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Rechargeable LED Waterproof Camping Torch"
+							data-product-price="230.40">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/e9.jpg" alt="e9">
+				</div>
+				<div class="img-text">
+					<h1>Aluminium Ultra-Light Camping Water-Bottle</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>Alu Water-Bottle</small>
+					<div class="price d-flex">
+						<p>$80.59</p>
+						<del>$77.37</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">Water-Bottle</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement30">-</button>
+						<span id="count30">0</span>
+						<button id="increment30">+</button>
+					</div>
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Aluminium Ultra-Light Camping Water-Bottle"
+							data-product-price="80.59">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/e10.jpeg" alt="e10">
+				</div>
+				<div class="img-text">
+					<h1>Lifesystems Outdoor Camping First Aid Kit Trek</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>Lifesystems</small>
+					<div class="price d-flex">
+						<p>$81.54</p>
+						<button class="sale ml-10">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">First Aid Kit Trek</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement31">-</button>
+						<span id="count31">0</span>
+						<button id="increment31">+</button>
+					</div>
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Lifesystems Outdoor Camping First Aid Kit Trek"
+							data-product-price="81.54">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/e11.jpg" alt="e11">
+				</div>
+				<div class="img-text">
+					<h1>Altimeter/Barometer, Multifunctions - GPS, IHM</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>Altimeter/Barometer</small>
+					<div class="price d-flex">
+						<p>$245.30</p>
+						<del>$235.95</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">GPS</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement32">-</button>
+						<span id="count32">0</span>
+						<button id="increment32">+</button>
+					</div>
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Altimeter/Barometer, Multifunctions - GPS, IHM"
+							data-product-price="245.30">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/o1.jpg" alt="o1">
+				</div>
+				<div class="img-text">
+					<h1>5-Piece Camping Table and Chair Set - 4 Persons</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>Table and Chair Set </small>
+					<div class="price d-flex">
+						<p>$289.45</p>
+						<del>$240.32</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">CT and CS</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement33">-</button>
+						<span id="count33">0</span>
+						<button id="increment33">+</button>
+					</div>
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="5-Piece Camping Table and Chair Set - 4 Persons"
+							data-product-price="289.45">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/06.jpg" alt="06">
+				</div>
+				<div class="img-text">
+					<h1>Wenzel 2 Person Camping Kit All in One Package</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>2 Person Camping Kit</small>
+					<div class="price d-flex">
+						<p>$550.25</p>
+						<del>$440.32</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">Wenzel</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement34">-</button>
+						<span id="count34">0</span>
+						<button id="increment34">+</button>
+					</div>
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Wenzel 2 Person Camping Kit All in One Package"
+							data-product-price="550.25">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/07.jpg" alt="07">
+				</div>
+				<div class="img-text">
+					<h1>Northwoods Doublewide Padded - 4 Piece Set</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-half"></i>
+						<i class="bi bi-star"></i>
+						<p class="rateno">(9)</p>
+					</div>
+					<small>Doublewide Padded</small>
+					<div class="price d-flex">
+						<p>$200.33</p>
+						<del>$190.00</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">Northwoods</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement35">-</button>
+						<span id="count35">0</span>
+						<button id="increment35">+</button>
+					</div>
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Northwoods Doublewide Padded - 4 Piece Set"
+							data-product-price="200.33">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/05.jpg" alt="05">
+				</div>
+				<div class="img-text">
+					<h1>Tent set Pure4Fun with sleeping bags and chairs</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>Tent set</small>
+					<div class="price d-flex">
+						<p>$370.45</p>
+						<del>$349.53</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">Pure4Fun</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement36">-</button>
+						<span id="count36">0</span>
+						<button id="increment36">+</button>
+					</div>
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Tent set Pure4Fun with sleeping bags and chairs"
+							data-product-price="370.45">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/o2.jpeg" alt="o2">
+				</div>
+				<div class="img-text">
+					<h1>Outwell Feast Cook Set with Non-stick Coating</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-half"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>Outwell Feast Cook Set</small>
+					<div class="price d-flex">
+						<p>$80.54</p>
+						<del>$75.32</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">Outwell</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement37">-</button>
+						<span id="count37">0</span>
+						<button id="increment37">+</button>
+					</div>
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Outwell Feast Cook Set with Non-stick Coating"
+							data-product-price="80.54">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/e5.png" alt="e5">
+				</div>
+				<div class="img-text">
+					<h1>Chefs Knife Roll Bag, Waxed Canvas Knife Case</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>Chefs Knife</small>
+					<div class="price d-flex">
+						<p>$230.40</p>
+						<del>$200.35</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">Knife Case</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement38">-</button>
+						<span id="count38">0</span>
+						<button id="increment38">+</button>
+					</div>
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Chefs Knife Roll Bag, Waxed Canvas Knife Case"
+							data-product-price="230.40">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/03.jpg" alt="03">
+				</div>
+				<div class="img-text">
+					<h1>Portable Outdoor Camping Cookware Set 4-5 Person</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<p class="rateno">(11)</p>
+					</div>
+					<small>Camping Cookware Set</small>
+					<div class="price d-flex">
+						<p>$190.65</p>
+						<del>$180.43</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">4-5 Person</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement39">-</button>
+						<span id="count39">0</span>
+						<button id="increment39">+</button>
+					</div>
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Portable Outdoor Camping Cookware Set 4-5 Person"
+							data-product-price="190.65">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div
+				class="card my-3"
+				data-aos="fade-right"
+				data-aos-duration="1500">
+				<div class="img-card d-flex">
+					<img src="./img/04.jpg" alt="04">
+				</div>
+				<div class="img-text">
+					<h1>Outwell Camping & Picnic Cutlery Set with Slimelime</h1>
+					<div class="rating-length">
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-half"></i>
+						<i class="bi bi-star"></i>
+						<p class="rateno">(9)</p>
+					</div>
+					<small>Cutlery Set</small>
+					<div class="price d-flex">
+						<p>$54.65</p>
+						<del>$40.32</del>
+						<button class="sale">Sale</button>
+					</div>
+					<p>Shipping calculated at check point</p>
+					<div class="item d-flex">
+						<p>Item :</p>
+						<button class="tent">Outwell</button>
+					</div>
+					<div class="quantity d-flex">
+						<p>Quantity :</p>
+						<button id="decrement40">-</button>
+						<span id="count40">0</span>
+						<button id="increment40">+</button>
+					</div>
+					<div class="button d-flex">
+						<a
+							href="#"
+							class="addtocart"
+							data-product-name="Outwell Camping & Picnic Cutlery Set with Slimelime"
+							data-product-price="54.65">
+							<p>Add to Cart</p>
+							<i class="bi bi-cart-fill"></i>
+						</a>
+						<a href="#" class="payment">
+							<p>Buy with PayPal</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div class="main-footer mt-3">
+			<div class="footer-card container">
+				<ul class="footer-items my-3">
+					<li class="f-title pb-2">Company</li>
+					<li><a href="Offers.html">Offers</a></li>
+					<li><a href="Reviews.html">Reviews</a></li>
+					<li><a href="AboutUs.html">About Us</a></li>
+					<li><a href="ContactUs.html">Contact Us</a></li>
+					<li><a href="#">FAQs</a></li>
+					<li><a href="#">Help</a></li>
+				</ul>
+				<ul class="footer-items my-3">
+					<li class="f-title pb-2">Support</li>
+					<li><a href="#">Product Safety Information</a></li>
+					<li><a href="#">Warranty Information</a></li>
+				</ul>
+				<ul class="footer-items my-3">
+					<li class="f-title pb-2">Top Categories</li>
+					<li><a href="Products.html">Tents</a></li>
+					<li><a href="Products.html">Camp Beds</a></li>
+					<li><a href="Products.html">Camping Chairs</a></li>
+					<li><a href="Products.html">Camping Furniture</a></li>
+				</ul>
+				<ul class="footer-items my-3">
+					<li class="f-title pb-2">Office</li>
+					<li class="address">
+						<a href="#"
+							>No. 123, Alanpya Pagoda Road, <br>Dagon Township
+							Yangon, Myanmar. <br>(95-1) 8255819 – 21, 8255823
+							– 32, 8255834 <br>info@retailcampinggroup.com</a
+						>
+					</li>
+					<li class="top">
+						<a href="#" title="Page Top"
+							><i class="bi bi-chevron-up"></i
+						></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer">
+			<ul class="footer-icons d-flex container">
+				<li>
+					<a href="https://www.facebook.com" title="facebook"
+						><i class="bi bi-facebook"></i
+					></a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com" title="youtube"
+						><i class="bi bi-youtube"></i
+					></a>
+				</li>
+				<li>
+					<a href="https://www.twitter.com" title="twitter"
+						><i class="bi bi-twitter"></i
+					></a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com" title="instagram"
+						><i class="bi bi-instagram"></i
+					></a>
+				</li>
+				<li>
+					<a href="https://mm.linkedin.com" title="linkedin"
+						><i class="bi bi-linkedin"></i
+					></a>
+				</li>
+			</ul>
+		</div>
+		<div class="copyright-text py-2">
+			<p class="container">
+				Copyright &copy; RCC Corporation of America and RCC Corporation.
+				All rights reserved.
+			</p>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/basket.js"></script>
+		<script src="js/pagination.js"></script>
+	</body>
+</html>

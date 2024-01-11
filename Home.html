@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Home</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/Home.css">
+	</head>
+	<body>
+		<!-- Navbar -->
+		<section class="navbar d-flex">
+			<div class="container">
+				<div class="nav-contents d-flex">
+					<div class="logo">
+						<a href="Home.html">
+							<img src="./img/logo.jpeg" alt="logo">
+						</a>
+					</div>
+					<ul class="nav-items d-flex">
+						<li><a href="Home.html">Home</a></li>
+						<li><a href="Products.html">Products</a></li>
+						<li><a href="AboutUs.html">About Us</a></li>
+						<li><a href="ContactUs.html">Contact Us</a></li>
+					</ul>
+					<ul class="nav-icons d-flex">
+						<li>
+							<a href="#" title="person"
+								><i class="bi bi-person-fill"></i
+							></a>
+						</li>
+						<li>
+							<a href="Basket.html" title="cart"
+								><i class="bi bi-cart-fill"></i
+							></a>
+						</li>
+						<li>
+							<a href="#" title="search"
+								><i class="bi bi-search"></i
+							></a>
+						</li>
+					</ul>
+					<div class="navbar-toggle" onclick="toggleBar">
+						<div class="bar"></div>
+						<div class="bar"></div>
+						<div class="bar"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Slider -->
+
+		<div class="slider">
+			<div class="swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="./img/camping2.jpg" alt="">
+						<h1
+							class="title"
+							data-aos="fade-up"
+							data-aos-duration="2000">
+							Welcome to Camping Fever
+						</h1>
+					</div>
+					<div class="swiper-slide">
+						<img src="./img/camping1.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="./img/camping3.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="./img/camping4.jpg" alt="">
+					</div>
+				</div>
+				<div class="button">
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Products -->
+		<p class="title-text my-3" data-aos="zoom-in" data-aos-duration="1000">
+			Products
+		</p>
+		<div class="products container">
+			<div
+				class="products-card my-3"
+				data-aos="fade-up"
+				data-aos-duration="1000">
+				<div class="card">
+					<div class="card-img">
+						<a href="#" class="card-text">30% Off</a>
+						<a href="Products.html" class="card-title">Tents</a>
+						<a href="Products.html">
+							<img src="./img/p1.png" alt="p1">
+						</a>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-img">
+						<a href="Products.html" class="card-title"
+							>Equipments</a
+						>
+						<a href="Products.html">
+							<img src="./img/e8.jpg" alt="e8">
+						</a>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-img">
+						<a href="#" class="card-text">26% Off</a>
+						<a href="Products.html" class="card-title"
+							>Furnitures</a
+						>
+						<a href="Products.html">
+							<img src="./img/f1.jpg" alt="f1">
+						</a>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-img">
+						<a href="#" class="card-text">10% Off</a>
+						<a href="Products.html" class="card-title">Cookwares</a>
+						<a href="Products.html">
+							<img src="./img/c2.jpeg" alt="c1">
+						</a>
+					</div>
+				</div>
+			</div>
+			<a href="Products.html" class="more">
+				<p class="my-3">More Products</p>
+			</a>
+		</div>
+
+		<!-- About Us -->
+
+		<div class="aboutus">
+			<div class="aboutus-card container">
+				<div
+					class="img-card"
+					data-aos="fade-right"
+					data-aos-duration="1000">
+					<img src="./img/camping2.jpg" alt="card1" class="card1">
+					<img src="./img/camping3.jpg" alt="card2" class="card2">
+				</div>
+				<div
+					class="aboutus-text"
+					data-aos="fade-left"
+					data-aos-duration="1000">
+					<p id="aboutus" class="title-text">About Us</p>
+					<p class="aboutus-body py-2">
+						We are passionate about providing outdoor enthusiasts
+						with the gear, knowledge, and inspiration they need to
+						embark on unforgettable camping and outdoor
+						experiences.Our founders, avid campers and nature
+						lovers, decided to create a platform that would inspire
+						and equip others to explore and connect with the natural
+						world.
+					</p>
+					<a href="AboutUs.html" class="btn">Read More</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Offers -->
+		<p class="title-text my-3" data-aos="zoom-in" data-aos-duration="1000">
+			Our Offers
+		</p>
+		<div class="services">
+			<div class="container">
+				<div
+					class="services-card"
+					data-aos="fade-up-left"
+					data-aos-duration="1000">
+					<div class="img-card">
+						<img src="./img/camping1.jpg" alt="">
+					</div>
+					<div class="services-body">
+						<h1>Offers 1</h1>
+						<p class="py-2">
+							Camping Fever offers family-friendly camping
+							packages with larger tents, kid-friendly gear, and
+							family-sized cooking equipment. Discover
+							family-friendly camping locations and activities.
+						</p>
+						<a href="Offers.html" class="btn">Read More</a>
+					</div>
+				</div>
+				<div
+					class="services-card"
+					data-aos="fade-up-left"
+					data-aos-duration="1500">
+					<div class="img-card">
+						<img src="./img/camping2.jpg" alt="">
+					</div>
+					<div class="services-body">
+						<h1>Offers 2</h1>
+						<p class="py-2">
+							For outdoor enthusiasts, we provide adventure and
+							activity packages, including guided trips like
+							backpacking and kayaking adventures. Plus, campsite
+							reservations at popular destinations.
+						</p>
+						<a href="Offers.html" class="btn">Read More</a>
+					</div>
+				</div>
+				<div
+					class="services-card"
+					data-aos="fade-up-left"
+					data-aos-duration="2000">
+					<div class="img-card">
+						<img src="./img/camping3.jpg" alt="">
+					</div>
+					<div class="services-body">
+						<h1>Offers 3</h1>
+						<p class="py-2">
+							Simplify your camping experience with our
+							pre-packaged equipment bundles, including tents,
+							sleeping bags, pads, and a camp stove.
+							Cost-effective and convenient gear solutions.
+						</p>
+						<a href="Offers.html" class="btn">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Reviews -->
+		<p
+			id="reviews"
+			class="title-text my-3"
+			data-aos="zoom-in"
+			data-aos-duration="1000">
+			Reviews
+		</p>
+		<div class="reviews d-flex mb-3">
+			<div class="container d-flex">
+				<div
+					class="reviews-card d-flex"
+					data-aos="fade-right"
+					data-aos-duration="1000">
+					<div class="img-card">
+						<img src="./img/reviews2.jpg" alt="">
+					</div>
+					<div class="reviews-body">
+						<h1>John Doe</h1>
+						<div class="reviews-icons py-1">
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+						</div>
+						<p class="mb-1">
+							Camping Fever is a one-stop-shop for all your
+							camping and outdoor needs. The store is
+							well-organized, making it easy to find what you're
+							looking for. The staff is helpful, and they can
+							provide good recommendations. My only minor gripe is
+							that the prices are a bit on the higher side
+							compared to some other stores, but the quality
+							justifies the cost.
+						</p>
+						<a href="Reviews.html" class="btn">Read More</a>
+					</div>
+				</div>
+				<div
+					class="reviews-card d-flex"
+					data-aos="fade-left"
+					data-aos-duration="1000">
+					<div class="img-card">
+						<img src="./img/reviews4.jpeg" alt="">
+					</div>
+					<div class="reviews-body">
+						<h1>Rosemarie</h1>
+						<div class="reviews-icons py-1">
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-half"></i>
+						</div>
+						<p class="mb-1">
+							Camping Fever is a fantastic place to shop for
+							camping gear. The service is exceptional, with
+							knowledgeable staff who take the time to assist you.
+							The variety of products available is extensive,
+							catering to all camping styles. The prices are
+							competitive, and they have special offers. I highly
+							recommend this store to fellow campers.
+						</p>
+						<a href="Reviews.html" class="btn">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Contact Us -->
+		<p
+			id="contactus"
+			class="title-text my-3"
+			data-aos="zoom-in"
+			data-aos-duration="1000">
+			Contact Us
+		</p>
+		<div class="contactus d-flex mb-3">
+			<div class="container d-flex">
+				<div
+					class="contactus-card"
+					data-aos="fade-right"
+					data-aos-duration="1000">
+					<img
+						class="img-card d-flex"
+						src="./img/camping2.jpg"
+						alt="">
+
+					<div class="contactus-text1 d-flex">
+						<h1>Contact Now</h1>
+						<p class="py-2">
+							Whether you have questions about our products, need
+							expert advice on camping gear, we're just a click.
+						</p>
+						<p>
+							<i class="bi bi-geo-alt-fill"></i>
+
+							Address .......... Yangon, Myanmar
+						</p>
+						<p class="py-1">
+							<i class="bi bi-envelope-fill"></i>
+							Email Address .......... info@retailcamping.com
+						</p>
+						<p>
+							<i class="bi bi-telephone-fill"></i>
+							Phone Number ..... + (18000) 938 <br>
+							<a href="ContactUs.html" class="btn mt-2"
+								>Contact Now</a
+							>
+						</p>
+					</div>
+				</div>
+				<div
+					class="contactus-card"
+					data-aos="fade-left"
+					data-aos-duration="1000">
+					<img
+						class="img-card d-flex"
+						src="./img/camping3.jpg"
+						alt="">
+					<div class="text-card d-flex">
+						<div class="contactus-text">
+							<h1>Opening Hours</h1>
+							<p class="py-2">
+								At Camping Fever, we understand that your
+								outdoor adventures can happen any day of the
+								week.
+							</p>
+							<p>
+								<i class="bi bi-alarm-fill"></i>
+
+								Monday - Friday ........ 8:00AM - 9:00PM
+							</p>
+							<p class="py-1">
+								<i class="bi bi-alarm-fill"></i>
+								Saturday .................... 8:30AM - 8:00PM
+							</p>
+							<p>
+								<i class="bi bi-alarm-fill"></i>
+								Sunday & Holiday ... 8:30AM - 12:00PM <br>
+								<a href="ContactUs.html" class="btn mt-2"
+									>Contact Now</a
+								>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a
+			data-aos="zoom-out"
+			data-aos-duration="1000"
+			class="weatherwidget-io container"
+			href="https://forecast7.com/en/21d9295d96/myanmar-burma/"
+			data-label_1="MYANMAR (BURMA)"
+			data-label_2="WEATHER"
+			data-theme="original"
+			>MYANMAR (BURMA) WEATHER
+		</a>
+		<!-- Footer -->
+		<div class="main-footer mt-3">
+			<div class="footer-card container">
+				<ul class="footer-items my-3">
+					<li class="f-title pb-2">Company</li>
+					<li><a href="Offers.html">Offers</a></li>
+					<li><a href="Reviews.html">Reviews</a></li>
+					<li><a href="AboutUs.html">About Us</a></li>
+					<li><a href="ContactUs.html">Contact Us</a></li>
+					<li><a href="#">FAQs</a></li>
+					<li><a href="#">Help</a></li>
+				</ul>
+				<ul class="footer-items my-3">
+					<li class="f-title pb-2">Support</li>
+					<li><a href="#">Product Safety Information</a></li>
+					<li><a href="#">Warranty Information</a></li>
+				</ul>
+				<ul class="footer-items my-3">
+					<li class="f-title pb-2">Top Categories</li>
+					<li><a href="Products.html">Tents</a></li>
+					<li><a href="Products.html">Camp Beds</a></li>
+					<li><a href="Products.html">Camping Chairs</a></li>
+					<li><a href="Products.html">Camping Furniture</a></li>
+				</ul>
+				<ul class="footer-items my-3">
+					<li class="f-title pb-2">Office</li>
+					<li class="address">
+						<a href="#"
+							>No. 123, Alanpya Pagoda Road, <br>Dagon Township
+							Yangon, Myanmar. <br>(95-1) 8255819 – 21, 8255823
+							– 32, 8255834 <br>info@retailcampinggroup.com</a
+						>
+					</li>
+					<li class="top">
+						<a href="#" title="Page Top"
+							><i class="bi bi-chevron-up"></i
+						></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer">
+			<ul class="footer-icons d-flex container">
+				<li>
+					<a href="https://www.facebook.com" title="facebook"
+						><i class="bi bi-facebook"></i
+					></a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com" title="youtube"
+						><i class="bi bi-youtube"></i
+					></a>
+				</li>
+				<li>
+					<a href="https://www.twitter.com" title="twitter"
+						><i class="bi bi-twitter"></i
+					></a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com" title="instagram"
+						><i class="bi bi-instagram"></i
+					></a>
+				</li>
+				<li>
+					<a href="https://mm.linkedin.com" title="linkedin"
+						><i class="bi bi-linkedin"></i
+					></a>
+				</li>
+			</ul>
+		</div>
+		<div class="copyright-text py-2">
+			<p class="container">
+				Copyright &copy; RCC Corporation of America and RCC Corporation.
+				All rights reserved.
+			</p>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="js/index.js"></script>
+		<script>
+			!(function (d, s, id) {
+				var js,
+					fjs = d.getElementsByTagName(s)[0];
+				if (!d.getElementById(id)) {
+					js = d.createElement(s);
+					js.id = id;
+					js.src = "https://weatherwidget.io/js/widget.min.js";
+					fjs.parentNode.insertBefore(js, fjs);
+				}
+			})(document, "script", "weatherwidget-io-js");
+		</script>
+	</body>
+</html>

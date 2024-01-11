@@ -1,0 +1,22 @@
+:root {
+	--primary-font: "Roboto";
+	--title-font: "Dancing Script";
+	--secondary-titlefont: "Kaushan Script";
+	--btn1-fz: 1em;
+	--primary-fz: 1.2em;
+	--btn2-fz: 1.5em;
+	--secondary-fz: 2em;
+	--tertiary-fz: 2.5em;
+	--primary-fw: 600;
+	--primary-fc: #303030;
+	--secondary-fc: #fff;
+	--tertiary-fc: #00b900;
+	--primary-lineheight: 1.5em;
+	--primary-textshadow: 1px 1px 10px rgb(0 0 0 / 40%),
+		-1px 1px 10px rgb(0 0 0 / 40%), 1px -1px 10px rgb(0 0 0 / 40%),
+		-1px -1px 10px rgb(0 0 0 / 40%);
+	--swiper-theme-color: #fff !important;
+	--swiper-navigation-size: 30px !important;
+	--swiper-pagination-bullet-size: 10px !important;
+	--swiper-pagination-bullet-inactive-opacity: 0.5 !important;
+}

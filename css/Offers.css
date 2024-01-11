@@ -1,0 +1,100 @@
+/* Products */
+
+.offers-card {
+	display: flex;
+	gap: 30px;
+	flex-wrap: wrap;
+}
+
+.offers-card .card {
+	border: 2px solid #d3d3d3;
+	border-radius: 25px;
+}
+
+.offers-card > .card > * {
+	flex: 1;
+}
+
+#prev,
+#prev1,
+#next,
+#next1 {
+	color: var(--secondary-fc);
+	/* font-weight: bold; */
+	border-radius: 5px;
+	padding: 5px;
+	background-color: var(--primary-fc);
+}
+
+.card-img {
+	overflow: hidden;
+	height: 300px;
+	border-radius: 25px 25px 0px 0px;
+	margin: auto;
+}
+
+.offers-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px 0;
+}
+
+.reviews-icons i {
+	color: rgb(206, 206, 0);
+}
+
+.price {
+	justify-content: center;
+	color: var(--primary-fc);
+}
+
+del {
+	padding: 0 10px;
+	color: red;
+}
+
+.card-title {
+	font-size: var(--primary-fz);
+	font-weight: var(--primary-fw);
+	color: var(--primary-fc);
+	padding: 0 10px;
+	text-decoration: none;
+}
+
+.card-text {
+	position: absolute;
+	color: var(--tertiary-fc);
+	z-index: 1;
+	top: 1em;
+	left: 1em;
+	padding: 2px 20px;
+	text-decoration: none;
+	border: 2px solid transparent;
+	border-color: var(--tertiary-fc);
+	border-radius: 20px;
+}
+
+.card-img img:hover {
+	transform: scale(1.1);
+	opacity: 0.8;
+}
+
+.card-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	background-size: cover;
+	background-position: center;
+	transition: all 0.7s;
+}
+
+/* Media Queries */
+
+@media (max-width: 500px) {
+	.offers-card .card > * {
+		flex: 1 1 100%;
+	}
+}

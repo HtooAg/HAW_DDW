@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Basket</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/Basket.css">
+	</head>
+	<body>
+		<!-- Navbar -->
+		<section class="navbar d-flex">
+			<div class="container">
+				<div class="nav-contents d-flex">
+					<div class="logo">
+						<a href="Home.html">
+							<img src="./img/logo.jpeg" alt="logo">
+						</a>
+					</div>
+					<ul class="nav-items d-flex">
+						<li><a href="Home.html">Home</a></li>
+						<li><a href="Products.html">Products</a></li>
+						<li><a href="AboutUs.html">About Us</a></li>
+						<li><a href="ContactUs.html">Contact Us</a></li>
+					</ul>
+					<ul class="nav-icons d-flex">
+						<li>
+							<a href="#" title="person"
+								><i class="bi bi-person-fill"></i
+							></a>
+						</li>
+						<li>
+							<a href="Basket.html" title="cart"
+								><i class="bi bi-cart-fill"></i
+							></a>
+						</li>
+						<li>
+							<a href="#" title="search"
+								><i class="bi bi-search"></i
+							></a>
+						</li>
+					</ul>
+					<div class="navbar-toggle" onclick="toggleBar">
+						<div class="bar"></div>
+						<div class="bar"></div>
+						<div class="bar"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Slider -->
+
+		<div class="slider">
+			<div class="swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="./img/camping1.jpg" alt="">
+						<h1
+							class="title"
+							data-aos="fade-up"
+							data-aos-duration="2000">
+							Thanks for filling carts
+						</h1>
+					</div>
+					<div class="swiper-slide">
+						<img src="./img/camping2.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="./img/camping3.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="./img/camping4.jpg" alt="">
+					</div>
+				</div>
+				<div class="button">
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container py-2">
+			<a href="AddtoCart.html" class="clear" title="Back"
+				>&lt; Back to AddtoCart</a
+			>
+		</div>
+
+		<div class="container">
+			<table id="add">
+				<thead>
+					<tr>
+						<th data-label="Product Name">Product Name</th>
+						<th data-label="Price">Price</th>
+						<th data-label="Quantity">Quantity</th>
+						<th data-label="Total">Total</th>
+						<th data-label="Trash">Trash</th>
+					</tr>
+				</thead>
+
+				<tbody id="cart-items">
+					<!-- Cart items will be added here using JavaScript -->
+				</tbody>
+			</table>
+		</div>
+
+		<!-- Footer -->
+		<div class="main-footer mt-3">
+			<div class="footer-card container">
+				<ul class="footer-items my-3">
+					<li class="f-title pb-2">Company</li>
+					<li><a href="Offers.html">Offers</a></li>
+					<li><a href="Reviews.html">Reviews</a></li>
+					<li><a href="AboutUs.html">About Us</a></li>
+					<li><a href="ContactUs.html">Contact Us</a></li>
+					<li><a href="#">FAQs</a></li>
+					<li><a href="#">Help</a></li>
+				</ul>
+				<ul class="footer-items my-3">
+					<li class="f-title pb-2">Support</li>
+					<li><a href="#">Product Safety Information</a></li>
+					<li><a href="#">Warranty Information</a></li>
+				</ul>
+				<ul class="footer-items my-3">
+					<li class="f-title pb-2">Top Categories</li>
+					<li><a href="Products.html">Tents</a></li>
+					<li><a href="Products.html">Camp Beds</a></li>
+					<li><a href="Products.html">Camping Chairs</a></li>
+					<li><a href="Products.html">Camping Furniture</a></li>
+				</ul>
+				<ul class="footer-items my-3">
+					<li class="f-title pb-2">Office</li>
+					<li class="address">
+						<a href="#"
+							>No. 123, Alanpya Pagoda Road, <br>Dagon Township
+							Yangon, Myanmar. <br>(95-1) 8255819 – 21, 8255823
+							– 32, 8255834 <br>info@retailcampinggroup.com</a
+						>
+					</li>
+					<li class="top">
+						<a href="#" title="Page Top"
+							><i class="bi bi-chevron-up"></i
+						></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer">
+			<ul class="footer-icons d-flex container">
+				<li>
+					<a href="https://www.facebook.com" title="facebook"
+						><i class="bi bi-facebook"></i
+					></a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com" title="youtube"
+						><i class="bi bi-youtube"></i
+					></a>
+				</li>
+				<li>
+					<a href="https://www.twitter.com" title="twitter"
+						><i class="bi bi-twitter"></i
+					></a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com" title="instagram"
+						><i class="bi bi-instagram"></i
+					></a>
+				</li>
+				<li>
+					<a href="https://mm.linkedin.com" title="linkedin"
+						><i class="bi bi-linkedin"></i
+					></a>
+				</li>
+			</ul>
+		</div>
+		<div class="copyright-text py-2">
+			<p class="container">
+				Copyright &copy; RCC Corporation of America and RCC Corporation.
+				All rights reserved.
+			</p>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/basket.js"></script>
+	</body>
+</html>

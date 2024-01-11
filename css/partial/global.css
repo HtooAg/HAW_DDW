@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--primary-font);
+}
+
+.logo img {
+	height: 80px;
+}
+
+.slider img {
+	object-fit: cover;
+	object-position: center;
+	height: 600px;
+	background-position: center;
+	width: 100%;
+}
+
+.swiper-slide {
+	position: relative;
+	text-align: center;
+}
+
+.title {
+	font-size: 3em;
+	font-family: var(--title-font);
+	color: var(--secondary-fc);
+	text-shadow: var(--primary-textshadow);
+	position: absolute;
+	top: 50% !important;
+	left: 50% !important;
+	transform: translate(-50%, -50%) !important;
+}
+
+@media (max-width: 768px) {
+	.slider img {
+		height: 380px;
+	}
+
+	.title {
+		font-size: var(--secondary-fz);
+	}
+}
+
+@media (max-width: 1280px) {
+	.container {
+		width: 85%;
+	}
+}
+
+.d-flex {
+	display: flex;
+}
+
+.py-1 {
+	padding: 10px 0;
+}
+
+.py-2 {
+	padding: 20px 0;
+}
+
+.pt-1 {
+	padding: 10px 0px 0px 0px;
+}
+
+.mt-3 {
+	margin: 30px 0px 0px 0px;
+}
+
+.mt-2 {
+	margin: 20px 0px 0px 0px;
+}
+
+.my-2 {
+	margin: 20px 0;
+}
+
+.ml-10 {
+	margin-left: 10px;
+}
+
+.my-3 {
+	margin: 30px 0;
+}
+
+.pb-2 {
+	padding: 0px 0px 20px 0px;
+}
+
+.mb-1 {
+	margin: 0px 0px 10px 0px;
+}
+
+.mb-3 {
+	margin: 0px 0px 30px 0px;
+}
+
+.title-text {
+	font-size: var(--tertiary-fz);
+	font-weight: var(--primary-fw);
+	color: var(--primary-fc);
+	text-align: center;
+	font-family: var(--title-font);
+}
+
+/* Home Page btn */
+.btn {
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 30px;
+	background-color: rgb(0, 173, 173);
+	color: var(--secondary-fc);
+	font-style: italic;
+	text-decoration: none;
+	padding: 6px 20px;
+	transition: all 0.5s;
+}
+
+.btn:hover {
+	background-color: rgb(0, 80, 80);
+	transform: translateY(-7px);
+}
+
+/* Submit btn */
+.but {
+	font-style: italic;
+	font-size: 15px;
+	padding: 10px 15px;
+	background-color: rgb(0, 173, 173);
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: all 0.5s;
+}
+
+.but:hover {
+	background-color: rgb(0, 139, 139);
+}
+
+textarea {
+	resize: vertical;
+	font-family: var(--primary-font);
+}

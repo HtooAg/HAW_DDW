@@ -1,0 +1,89 @@
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table tr,
+table th,
+table td {
+	padding: var(--primary-fz);
+	border: 1px solid #d3d3d3;
+	transition: all 0.5s;
+	text-align: center;
+}
+
+table th {
+	text-transform: uppercase;
+	background-color: rgb(0, 173, 173);
+	font-size: var(--primary-fz);
+	color: var(--secondary-fc);
+	text-align: center;
+}
+
+tr:nth-child(even) {
+	background-color: #ebebeb;
+}
+
+.clear {
+	font-size: 14px;
+	text-decoration: none;
+	color: var(--primary-fc);
+}
+
+button {
+	outline: 0;
+	border: none;
+	background: none;
+}
+
+.bi-trash-fill {
+	cursor: pointer;
+	font-size: var(--primary-fz);
+	color: firebrick;
+}
+
+@media (max-width: 989px) {
+	table th {
+		font-size: var(--btn1-fz);
+	}
+}
+
+@media (max-width: 768px) {
+	table th,
+	table td {
+		border: none;
+	}
+
+	table thead {
+		overflow: hidden;
+		position: absolute;
+		width: 0px;
+	}
+
+	table tr {
+		border-bottom: 3px solid #d3d3d3;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		margin-bottom: var(--btn1-fz);
+	}
+
+	table td {
+		border-bottom: 1px solid #d3d3d3;
+		display: flex;
+		flex: 1;
+		justify-content: space-between;
+		text-align: justify;
+		font-size: 0.8em;
+	}
+
+	table td::before {
+		content: attr(data-label);
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	table td:last-child {
+		border-bottom: 0;
+	}
+}

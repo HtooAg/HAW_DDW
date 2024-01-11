@@ -1,0 +1,148 @@
+/* Navbar */
+
+.nav-contents {
+	justify-content: space-between;
+	font-size: var(--primary-fz);
+	align-items: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li a {
+	text-decoration: none;
+	color: var(--primary-fc);
+}
+.nav-items {
+	gap: 3em;
+}
+
+.nav-items li {
+	position: relative;
+}
+
+.nav-items li::after {
+	position: absolute;
+	bottom: -3px;
+	left: 0;
+	background-color: rgb(0, 172, 172);
+	width: 0%;
+	content: "";
+	height: 2px;
+	transition: all 0.5s;
+}
+
+.nav-items li:hover::after {
+	width: 100%;
+}
+
+.nav-items li a {
+	transition: all 0.5s;
+}
+
+.nav-items li a:hover {
+	color: rgb(0, 172, 172);
+}
+
+.nav-icons {
+	gap: 1em;
+}
+
+.navbar .nav-items a {
+	color: var(--primary-fc);
+	opacity: 0;
+}
+
+.navbar .navbar-toggle {
+	display: none;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	font-size: var(--primary-fz);
+	color: var(--primary-fc);
+}
+
+.navbar .navbar-toggle .bar {
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	background-color: var(--primary-fc);
+	transition: 0.5s;
+}
+
+@media (max-width: 780px) {
+	.nav-icons {
+		margin: 15px 45px 15px 0px;
+	}
+
+	.navbar .nav-items {
+		flex-direction: column;
+		align-items: center;
+		position: absolute;
+		top: 4em;
+		left: 0;
+		right: 0;
+		background-color: var(--secondary-fc);
+		padding: 20px;
+		/* transition: all 0.5s; */
+		transition: transform 1s;
+		opacity: 0;
+		transform: translateY(-10px);
+		visibility: hidden;
+		z-index: 2;
+	}
+
+	.navbar .nav-items.show {
+		opacity: 1;
+		transform: translateY(0);
+		visibility: visible;
+	}
+
+	.navbar .navbar-toggle {
+		display: block;
+	}
+
+	.navbar .navbar-toggle.active .bar:nth-child(1) {
+		transform: rotate(-45deg) translate(-5px, 6px);
+	}
+
+	.navbar .navbar-toggle.active .bar:nth-child(2) {
+		opacity: 0;
+		transition: 0.5s;
+	}
+
+	.navbar .navbar-toggle.active .bar:nth-child(3) {
+		transform: rotate(45deg) translate(-5px, -6px);
+	}
+
+	.navbar .nav-items.show a {
+		opacity: 1;
+		color: var(--primary-fc);
+	}
+	.navbar .nav-items.show a:hover {
+		color: rgb(0, 172, 172);
+		transition: all 0.5s;
+	}
+	.navbar .nav-icons.show a {
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+@media (min-width: 780px) {
+	.navbar .nav-items,
+	.navbar .nav-icons {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.navbar .navbar-toggle {
+		display: none;
+	}
+
+	.navbar .nav-items a {
+		opacity: 1;
+	}
+}
